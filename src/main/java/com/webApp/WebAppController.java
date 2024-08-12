@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class WebAppController {
-	@GetMapping (value = "/getHello" )
+	@GetMapping (value = "/getHelloWorld" )
 	public String getHello() {
 		return "Hello";
 	}
